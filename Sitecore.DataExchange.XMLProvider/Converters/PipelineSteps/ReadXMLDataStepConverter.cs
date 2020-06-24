@@ -4,19 +4,17 @@ using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
 using Sitecore.DataExchange.Providers.XMLSystem.Models.PipelineSteps;
 using Sitecore.DataExchange.Repositories;
+using Sitecore.DataExchange.XMLProvider;
 using Sitecore.Services.Core.Model;
-using System;
 
 namespace Sitecore.DataExchange.Providers.XMLSystem.Converters.PipelineSteps
 {
-    [SupportedIds("{00191A02-F1B4-406C-B3CB-60568CCDD6D3}")]
+    [SupportedIds(Constants.XmlProvider.ReadXmlDataPipelineStepTemplateId)]
     public class ReadXMLDataStepConverter : BasePipelineStepConverter
     {
         // the id from the pipeline step template you created named Read XML Data Pipeline Step.
-        //private static readonly Guid TemplateId = Guid.Parse("{00191A02-F1B4-406C-B3CB-60568CCDD6D3}");
         public ReadXMLDataStepConverter(IItemModelRepository repository) : base(repository)
         {
-            //this.SupportedTemplateIds.Add(TemplateId);
         }
 
         protected override void AddPlugins(ItemModel source, PipelineStep pipelineStep)

@@ -35,7 +35,7 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps
             {
                 throw new ArgumentNullException(nameof(pipelineContext));
             }
-            //logger = pipelineContext.PipelineBatchContext.Logger;
+
             //get the file path from the plugin on the endpoint
             var settings = endpoint.GetXMLSystemSettings();
             if (settings == null)
@@ -50,7 +50,7 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps
                     pipelineStep.Name, endpoint.Name);
                 return;
             }
-            //
+            
             //if the path is relative, the base directory is used to build an 
             //absolute path so that when this code runs on the Sitecore server, 
             //relative paths will be based on the webroot
@@ -66,7 +66,6 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps
                 {
                     path = string.Format("{0}{1}", AppDomain.CurrentDomain.BaseDirectory, path);
                 }
-                //
 
                 if (!File.Exists(path))
                 {
@@ -83,6 +82,7 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps
             document.Load(path);
             XmlNodeList xmlNodeList = document.GetElementsByTagName(settings.XMLNodeName);
             XmlNode[] nodeArray = xmlNodeList.Cast<XmlNode>().ToArray();
+
             for (int i = 0; i < xmlNodeList.Count; i++)
             {
                 List<string> strs = new List<string>();
@@ -93,13 +93,12 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps
                 lines.Add(strs.ToArray());
             }
             
-            //
             //add the data that was read from the xml file to a plugin
             var dataSettings = new IterableDataSettings(nodeArray);
             logger.Info(
                 "{0} rows were read from the file. (pipeline step: {1}, endpoint: {2})",
                 lines.Count, pipelineStep.Name, endpoint.Name);
-            //
+
             //add the plugin to the pipeline context
             pipelineContext.AddPlugin(dataSettings);
         }

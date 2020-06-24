@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="Converters\DataAccess\Reader\XMLElementValueReader.cs" />
     <Compile Include="Converters\DataAccess\ValueAccessor\XMLElementValueAccessorConverter.cs" />
     <Compile Include="Converters\Endpoints\XMLSystemEndpointConverter.cs" />

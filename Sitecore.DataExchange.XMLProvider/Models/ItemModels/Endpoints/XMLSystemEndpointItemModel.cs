@@ -1,4 +1,5 @@
-﻿using Sitecore.Services.Core.Model;
+﻿using Sitecore.DataExchange.XMLProvider;
+using Sitecore.Services.Core.Model;
 
 namespace Sitecore.DataExchange.Providers.XMLSystem.Models.ItemModels.Endpoints
 {
@@ -9,7 +10,7 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Models.ItemModels.Endpoints
     //Sitecore items.Fields on this type are accessed by name.
     public class XMLSystemEndpointItemModel : ItemModel
     {        
-        public const string XMLNodeName = "XMLNodeName";
-        public const string XMLPath = "XMLPath";
+        public const string XMLNodeName = Constants.XmlProvider.XmlEndpointXmlNodeName;
+        public const string XMLPath = Constants.XmlProvider.XmlEndpointXmlPath;
     }
 }

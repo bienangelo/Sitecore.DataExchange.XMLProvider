@@ -12,16 +12,6 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.Reader
         {
             this.ElementName = elementName;
         }
-
-        //public CanReadResult CanRead(object source, DataAccessContext context)
-        //{
-        //    bool flag = source != null && source is XmlNode;
-        //    return new CanReadResult()
-        //    {
-        //        CanReadValue = flag
-        //    };
-        //}
-
         public ReadResult CanRead(object source, DataAccessContext context)
         {
             bool flag = source != null && source is XmlNode;
@@ -57,46 +47,5 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.Reader
                 ReadValue = readValue
             };
         }
-
-        //public ReadResult Read(object source, DataAccessContext context)
-        //{
-        //    var flag = false;
-        //    object readValue = (object)null;
-        //    var xmlNode = source as XmlNode;
-        //    var elements = ElementName.Split('|');
-
-
-        //    if (xmlNode != null && elements.Length == 2)
-        //    {
-        //        var baseElement = elements[0];
-        //        var fallbackElement = elements[1];
-        //        var fallbackReadValue = string.Empty;
-
-        //        for (int i = 0; i < xmlNode.ChildNodes.Count; i++)
-        //        {
-        //            if (baseElement.Equals(xmlNode.ChildNodes[i].Name, StringComparison.OrdinalIgnoreCase))
-        //            {
-        //                readValue = xmlNode.ChildNodes[i].InnerText;
-        //                flag = true;
-        //            }
-        //            else if (fallbackElement.Equals(xmlNode.ChildNodes[i].Name, StringComparison.OrdinalIgnoreCase))
-        //            {
-        //                fallbackReadValue = xmlNode.ChildNodes[i].InnerText;
-        //                flag = true;
-        //            }
-        //        }
-
-        //        if (String.IsNullOrEmpty(readValue.ToString()))
-        //        {
-        //            readValue = fallbackReadValue;
-        //        }
-        //    }
-
-        //    return new ReadResult(DateTime.Now)
-        //    {
-        //        WasValueRead = flag,
-        //        ReadValue = readValue
-        //    };
-        //}
     }
 }

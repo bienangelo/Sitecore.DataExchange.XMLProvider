@@ -1,4 +1,5 @@
-﻿using Sitecore.Services.Core.Model;
+﻿using Sitecore.DataExchange.XMLProvider;
+using Sitecore.Services.Core.Model;
 
 namespace Sitecore.DataExchange.Providers.XMLSystem.Models.PipelineSteps
 {
@@ -6,6 +7,6 @@ namespace Sitecore.DataExchange.Providers.XMLSystem.Models.PipelineSteps
     //These field names are referenced by the converter.
     public class ReadXMLDataStepItemModel : ItemModel
     {
-        public const string EndpointFrom = "EndpointFrom";
+        public const string EndpointFrom = Constants.XmlProvider.ReadXmlDataPipelineStepEndpointFromField;
     }
 }

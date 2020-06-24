@@ -5,5 +5,4 @@
         public string XMLNodeName { get; set; }
         public string XMLPath { get; set; }
     }
-
 }
