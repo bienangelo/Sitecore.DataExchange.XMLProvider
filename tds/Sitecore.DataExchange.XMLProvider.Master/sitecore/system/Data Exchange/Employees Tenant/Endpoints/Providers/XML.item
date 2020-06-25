@@ -1,25 +1,18 @@
 ----item----
 version: 1
-id: {200AA55D-60D9-4C73-8B63-89E5007C47AA}
+id: {35ECA41B-1ED9-486E-B70F-3453A534670E}
 database: master
-path: /sitecore/templates/Data Exchange/Providers/XML System/Endpoints/XML System Endpoint/__Standard Values
-parent: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
-name: __Standard Values
+path: /sitecore/system/Data Exchange/Employees Tenant/Endpoints/Providers/XML
+parent: {7D4C5E1F-5F3D-4A01-A0AE-1C8BAE57DF84}
+name: XML
 master: {00000000-0000-0000-0000-000000000000}
-template: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
-templatekey: XML System Endpoint
+template: {5D3487A4-FD23-4C64-882C-1A36E402E8F3}
+templatekey: XML System Endpoints Root
 
-----field----
-field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
-name: ConverterType
-key: convertertype
-content-length: 124
-
-Sitecore.DataExchange.Providers.XMLSystem.Converters.Endpoints.XMLSystemEndpointConverter, Sitecore.DataExchange.XMLProvider
 ----version----
 language: en
 version: 1
-revision: e8295786-4a6f-45c0-85fb-e4a2350b41cc
+revision: feaac765-06e5-472f-bf71-189ca3131ba8
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,35 +20,35 @@ name: __Owner
 key: __owner
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170325T103342Z
+20200625T124820Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e8295786-4a6f-45c0-85fb-e4a2350b41cc
+feaac765-06e5-472f-bf71-189ca3131ba8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200625T130131Z
+20200625T124820Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

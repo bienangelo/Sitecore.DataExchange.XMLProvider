@@ -11,7 +11,7 @@ using System;
 
 namespace Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.ValueAccessors
 {
-    [SupportedIds(new string[] { Constants.XmlProvider.XmlElementValueAccessorTemplateId, Constants.XmlProvider.XmlElementFallbackValueAccessorTemplateId })]
+    [SupportedIds(new string[] { Constants.XmlProvider.XmlElementValueAccessorTemplateId })]
     public class XMLElementValueAccessorConverter : ValueAccessorConverter
     {
         public XMLElementValueAccessorConverter(IItemModelRepository repository) : base(repository)

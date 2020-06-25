@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {7C61E9E4-EFF0-4135-84D6-CC7F191FE848}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Data Access/Value Accessor Sets/Providers/Sitecore
+parent: {AADF62B3-2504-471B-93FE-72583E0EA207}
+name: Sitecore
+master: {00000000-0000-0000-0000-000000000000}
+template: {4CE6AC7A-56C9-4280-86A5-F3C6998FC447}
+templatekey: Sitecore Value Accessor Sets Root
+
+----version----
+language: en
+version: 1
+revision: 4803f7b8-efc6-42c5-b0be-9d8ed78ea5aa
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T123353Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4803f7b8-efc6-42c5-b0be-9d8ed78ea5aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T123353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

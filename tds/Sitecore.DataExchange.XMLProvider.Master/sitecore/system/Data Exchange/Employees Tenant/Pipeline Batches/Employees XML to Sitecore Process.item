@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {C6184805-FD44-4CC0-ABDA-1407DC57896E}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Pipeline Batches/Employees XML to Sitecore Process
+parent: {93F1981D-7AF0-4E4F-9D83-429D1160D52B}
+name: Employees XML to Sitecore Process
+master: {00000000-0000-0000-0000-000000000000}
+template: {075C4FBD-F54E-4E6D-BD54-D49BDA0913D8}
+templatekey: Pipeline Batch
+
+----field----
+field: {9061BEEA-DF25-4B2B-A698-3F5B4E867D18}
+name: Pipelines
+key: pipelines
+content-length: 38
+
+{81FA5440-C432-44D6-93C4-D6139ED66EFF}
+----field----
+field: {985BA535-0F3E-4DA8-A768-A469026DE9DB}
+name: RequestedAt
+key: requestedat
+content-length: 16
+
+20200625T135831Z
+----field----
+field: {6A2B2CBB-4338-4814-A8A9-9FECBB90456A}
+name: LastRunFinished
+key: lastrunfinished
+content-length: 16
+
+20200625T135832Z
+----field----
+field: {2AA5C591-FF55-411D-96C0-978BB2C58B94}
+name: Log
+key: log
+content-length: 128
+
+C:\inetpub\wwwroot\obsidian.sc\App_Data\logs\DataExchange\Employees.Tenant\Employees.XML.to.Sitecore.Process.20200625.135831.txt
+----field----
+field: {F09C65F8-C611-476F-9EF2-457FDCC88E1A}
+name: LogLevels
+key: loglevels
+content-length: 194
+
+{9A08C19F-6B54-4C4A-A53A-A797E5356E57}|{FB228585-8B23-49D0-9677-F7147756F321}|{77391479-9575-4FBA-9719-3B50FA19A50B}|{F7729D4A-D12D-4D0B-849D-02CD4AC18D2D}|{18E94D1E-B367-4073-A521-0D50A01A26C6}
+----field----
+field: {E20CD41A-2930-4831-B0A4-9B70AE2996E7}
+name: IncludeStackTraceForExceptions
+key: includestacktraceforexceptions
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 307e204d-fe71-4f80-a238-b1734dbc5380
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T124318Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+307e204d-fe71-4f80-a238-b1734dbc5380
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T135832Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,25 +1,25 @@
 ----item----
 version: 1
-id: {200AA55D-60D9-4C73-8B63-89E5007C47AA}
+id: {70C59AE9-26BA-4F17-BC1E-A683BDCCCC34}
 database: master
-path: /sitecore/templates/Data Exchange/Providers/XML System/Endpoints/XML System Endpoint/__Standard Values
-parent: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
+path: /sitecore/templates/User Defined/Employee/__Standard Values
+parent: {0AC338D7-3F13-462B-BAD9-0ADC50988168}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
-templatekey: XML System Endpoint
+template: {0AC338D7-3F13-462B-BAD9-0ADC50988168}
+templatekey: Employee
 
-----field----
-field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
-name: ConverterType
-key: convertertype
-content-length: 124
-
-Sitecore.DataExchange.Providers.XMLSystem.Converters.Endpoints.XMLSystemEndpointConverter, Sitecore.DataExchange.XMLProvider
 ----version----
 language: en
 version: 1
-revision: e8295786-4a6f-45c0-85fb-e4a2350b41cc
+revision: c262ffa0-0bf4-4c1c-b757-d4b396625ce6
+
+----field----
+field: {A324E820-D853-4700-A127-1A83E0747D40}
+name: Name
+key: name
+content-length: 0
+
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,35 +27,35 @@ name: __Owner
 key: __owner
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170325T103342Z
+20200625T122350Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e8295786-4a6f-45c0-85fb-e4a2350b41cc
+c262ffa0-0bf4-4c1c-b757-d4b396625ce6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200625T130131Z
+20200625T134708Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,61 +1,68 @@
 ----item----
 version: 1
-id: {200AA55D-60D9-4C73-8B63-89E5007C47AA}
+id: {C110526E-C889-415F-A5E7-E02761248571}
 database: master
-path: /sitecore/templates/Data Exchange/Providers/XML System/Endpoints/XML System Endpoint/__Standard Values
-parent: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
-name: __Standard Values
-master: {00000000-0000-0000-0000-000000000000}
-template: {CC05EF8C-F4C8-4EB9-A39A-8E71F978C1DD}
-templatekey: XML System Endpoint
+path: /sitecore/system/Data Exchange/Employees Tenant
+parent: {5EE8330D-E35E-433B-9BA6-DAF87ED38867}
+name: Employees Tenant
+master: {0D21226F-7B04-4FF2-9230-B55245CF6FE7}
+template: {327A381B-59F8-4E88-B331-BEBC7BD87E4E}
+templatekey: Data Exchange Tenant
 
 ----field----
-field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
-name: ConverterType
-key: convertertype
-content-length: 124
+field: {506BAD49-3DA6-474C-ACB5-7BCB509BFBD7}
+name: Enabled
+key: enabled
+content-length: 1
 
-Sitecore.DataExchange.Providers.XMLSystem.Converters.Endpoints.XMLSystemEndpointConverter, Sitecore.DataExchange.XMLProvider
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{3921635F-AE3F-445C-A7DE-5AE5F80590C3}
 ----version----
 language: en
 version: 1
-revision: e8295786-4a6f-45c0-85fb-e4a2350b41cc
+revision: 2ee06511-a5ea-4f26-ae04-db6b828e94d4
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
-content-length: 14
+content-length: 18
 
-sitecore\Admin
+sitecore\Anonymous
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170325T103342Z
+20200625T122935Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
-content-length: 14
+content-length: 18
 
-sitecore\Admin
+sitecore\Anonymous
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e8295786-4a6f-45c0-85fb-e4a2350b41cc
+2ee06511-a5ea-4f26-ae04-db6b828e94d4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200625T130131Z
+20200625T133355Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

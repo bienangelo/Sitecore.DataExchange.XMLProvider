@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {3FF9BCE5-079F-4DAE-803A-745CA3F646D8}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Pipelines/Handle Single Row From XML File/Write to Log Pipeline Step Target
+parent: {15E8A335-77D5-42D8-950D-819644975517}
+name: Write to Log Pipeline Step Target
+master: {00000000-0000-0000-0000-000000000000}
+template: {CCC46873-79B8-4DE0-9061-81715C9B9847}
+templatekey: Write to Log Pipeline Step
+
+----field----
+field: {F90429EE-EECD-42AB-921A-F3DED9198B3A}
+name: ValueAccessors
+key: valueaccessors
+content-length: 155
+
+{FEDE2FB2-10A1-4492-9C4F-0B990CEB3DE7}|{685B6F02-A49D-4D35-A19C-336E5E3AB27B}|{FC46702A-7148-4A26-8974-6AD7C23F6DDD}|{F9B55960-E5F9-46ED-A94D-BA92F0F94BA1}
+----field----
+field: {E8A43638-885D-4217-9A8F-7C072C9D2D48}
+name: ObjectLocation
+key: objectlocation
+content-length: 38
+
+{EC64487D-E7E6-40B0-A86C-40C74B95E04E}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 92b6f670-a279-49a7-98f5-7bc4b4c5ca18
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T135601Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+92b6f670-a279-49a7-98f5-7bc4b4c5ca18
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T135809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

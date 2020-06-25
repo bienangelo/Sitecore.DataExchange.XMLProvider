@@ -13,13 +13,13 @@ templatekey: XML Element Value Accessor
 field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
 name: ConverterType
 key: convertertype
-content-length: 152
+content-length: 145
 
-Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.ValueAccessor.XMLElementValueAccessorConverter,Sitecore.DataExchange.Providers.XMLSystem
+Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.ValueAccessors.XMLElementValueAccessorConverter,Sitecore.DataExchange.XMLProvider
 ----version----
 language: en
 version: 1
-revision: f4f2f0f7-5347-4cab-849a-bda927fcdc82
+revision: d5d4f500-4eec-45a7-bba4-a7c06eaf47f2
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -48,18 +48,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f4f2f0f7-5347-4cab-849a-bda927fcdc82
+d5d4f500-4eec-45a7-bba4-a7c06eaf47f2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170328T155815Z
+20200625T125350Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

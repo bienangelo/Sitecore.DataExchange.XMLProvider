@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {28EBECA0-71DD-4177-97E1-257A23DE451A}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Pipelines/Handle Single Row From XML File/Resolve Sitecore Item Pipeline Step
+parent: {15E8A335-77D5-42D8-950D-819644975517}
+name: Resolve Sitecore Item Pipeline Step
+master: {00000000-0000-0000-0000-000000000000}
+template: {D44AE29C-D708-4B3F-B04C-99E7F9288720}
+templatekey: Resolve Sitecore Item Pipeline Step
+
+----field----
+field: {D922EA57-BCE2-4457-BC60-5FCAAFA36707}
+name: ParentForItem
+key: parentforitem
+content-length: 38
+
+{E19107A3-C156-4900-9719-AA1D6A7E85C6}
+----field----
+field: {E074292D-0467-443C-A1B5-CBD5E5162813}
+name: MatchingFieldValueAccessor
+key: matchingfieldvalueaccessor
+content-length: 38
+
+{685B6F02-A49D-4D35-A19C-336E5E3AB27B}
+----field----
+field: {3798A7E3-61FF-4BA3-B8BA-F5CBA2929517}
+name: TemplateForNewItem
+key: templatefornewitem
+content-length: 38
+
+{0AC338D7-3F13-462B-BAD9-0ADC50988168}
+----field----
+field: {21875BE1-AD41-4541-88CF-7E47551BB6AC}
+name: ItemNameValueAccessor
+key: itemnamevalueaccessor
+content-length: 38
+
+{4AE115AE-8FBE-4177-8B08-F175D44618E9}
+----field----
+field: {922E98E7-BE62-4A67-8273-551F2E8C8BFE}
+name: EndpointFrom
+key: endpointfrom
+content-length: 38
+
+{2B5E20BB-8D81-400C-B67B-F480C7CEE69B}
+----field----
+field: {4CE9ED44-BC7F-44E5-886D-97D9A6890FAA}
+name: IdentifierValueAccessor
+key: identifiervalueaccessor
+content-length: 38
+
+{2A5D06A2-2FE4-46AA-91BE-34F3C0E5F24F}
+----field----
+field: {010E5D89-6409-4FBC-843B-CEB84C8ED3BB}
+name: IdentifierObjectLocation
+key: identifierobjectlocation
+content-length: 38
+
+{17DF1143-A38D-4C77-A933-E66B5ED21E9A}
+----field----
+field: {5C061C42-FF86-4F43-B5AD-831DC03DC77D}
+name: ResolvedObjectLocation
+key: resolvedobjectlocation
+content-length: 38
+
+{EC64487D-E7E6-40B0-A86C-40C74B95E04E}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 28efc935-3daa-4d17-bc1b-de99a4bdb120
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T131321Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28efc935-3daa-4d17-bc1b-de99a4bdb120
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T135113Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

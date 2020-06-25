@@ -1,75 +1,75 @@
 ----item----
 version: 1
-id: {DCD96037-3FD2-41AD-8B6A-9592A5C95552}
+id: {758B7489-F248-4AD2-A1CA-A30E04B5B1BC}
 database: master
-path: /sitecore/templates/Data Exchange/Providers/XML System/Data Access/XML Element Fallback Value Accessor/Settings/ElementName
-parent: {AD1848D2-F99F-41D2-9DFC-ACC878C48C7B}
-name: ElementName
+path: /sitecore/system/Data Exchange/Employees Tenant/Data Access/Value Accessor Sets/Providers/XML/XML Element Value Accessor Set/EmailElement
+parent: {5DE4C665-FA2D-456C-B2D3-8975B348127A}
+name: EmailElement
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
+template: {9B88A6C5-C38E-4A41-9798-17AC92F3BD20}
+templatekey: XML Element Value Accessor
 
 ----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 16
+field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
+name: ConverterType
+key: convertertype
+content-length: 145
 
-Single-Line Text
+Sitecore.DataExchange.Providers.XMLSystem.Converters.DataAccess.ValueAccessors.XMLElementValueAccessorConverter,Sitecore.DataExchange.XMLProvider
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 3
 
-200
+400
 ----version----
 language: en
 version: 1
-revision: 84885d8d-f4f0-4d8a-ba2a-6ea042e5a926
+revision: b7812047-f6c8-46c5-bffa-0c64740934ab
 
 ----field----
-field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
-name: Title
-key: title
-content-length: 42
+field: {6981260D-1149-407E-B232-28532619707B}
+name: ElementName
+key: elementname
+content-length: 5
 
-XML Element Name|XML Fallback Element Name
+Email
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170328T145311Z
+20200625T124202Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-84885d8d-f4f0-4d8a-ba2a-6ea042e5a926
+b7812047-f6c8-46c5-bffa-0c64740934ab
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190821T135401Z
+20200625T125326Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

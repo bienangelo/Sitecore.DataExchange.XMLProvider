@@ -13,20 +13,20 @@ templatekey: Read XML Data Pipeline Step
 field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
 name: ConverterType
 key: convertertype
-content-length: 133
+content-length: 125
 
-Sitecore.DataExchange.Providers.XMLSystem.Converters.PipelineSteps.ReadXMLDataStepConverter,Sitecore.DataExchange.Providers.XMLSystem
+Sitecore.DataExchange.Providers.XMLSystem.Converters.PipelineSteps.ReadXMLDataStepConverter,Sitecore.DataExchange.XMLProvider
 ----field----
 field: {A83A2EB2-BFA1-4D3F-9F17-0CC6C9A91C42}
 name: ProcessorType
 key: processortype
-content-length: 133
+content-length: 125
 
-Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps.ReadXMLDataStepProcessor,Sitecore.DataExchange.Providers.XMLSystem
+Sitecore.DataExchange.Providers.XMLSystem.Processors.PipelineSteps.ReadXMLDataStepProcessor,Sitecore.DataExchange.XMLProvider
 ----version----
 language: en
 version: 1
-revision: 8bbf4cd8-4b35-4053-8b82-1a62bfae5c41
+revision: 7035f233-b0d9-4335-aed0-5f38eea42fd7
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8bbf4cd8-4b35-4053-8b82-1a62bfae5c41
+7035f233-b0d9-4335-aed0-5f38eea42fd7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170325T131942Z
+20200625T130213Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

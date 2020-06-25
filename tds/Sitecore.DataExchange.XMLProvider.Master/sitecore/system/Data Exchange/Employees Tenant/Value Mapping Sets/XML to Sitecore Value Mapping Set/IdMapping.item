@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {FE9A7AF4-8E96-4964-AD42-0B5BC0F2C8F0}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Value Mapping Sets/XML to Sitecore Value Mapping Set/IdMapping
+parent: {5D138988-A69F-453D-8D72-9A47146702BB}
+name: IdMapping
+master: {00000000-0000-0000-0000-000000000000}
+template: {450C8F38-91C9-4896-957B-6F7DAF18CCFC}
+templatekey: Value Mapping
+
+----field----
+field: {95184B45-EFEF-447C-9089-4F2EC5DF26C5}
+name: SourceAccessor
+key: sourceaccessor
+content-length: 38
+
+{2A5D06A2-2FE4-46AA-91BE-34F3C0E5F24F}
+----field----
+field: {EF84B462-7F4A-4F48-B78E-ADE192D55E82}
+name: TargetAccessor
+key: targetaccessor
+content-length: 38
+
+{685B6F02-A49D-4D35-A19C-336E5E3AB27B}
+----version----
+language: en
+version: 1
+revision: d2adb860-8048-4cba-91b4-3d2235ac98b3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T124413Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2adb860-8048-4cba-91b4-3d2235ac98b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T124548Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

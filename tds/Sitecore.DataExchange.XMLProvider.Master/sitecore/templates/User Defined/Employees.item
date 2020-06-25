@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {209047C8-7900-450B-A6F3-AA30EAA00DEB}
+id: {54934BC6-F1AE-4E39-A94A-8974C129C395}
 database: master
-path: /sitecore/templates/Data Exchange/Providers/XML System/Data Access/XML Element Fallback Value Accessor
-parent: {2F7FFCF2-FF4C-4196-8AB1-7CB767F336E1}
-name: XML Element Fallback Value Accessor
+path: /sitecore/templates/User Defined/Employees
+parent: {B29EE504-861C-492F-95A3-0D890B6FCA09}
+name: Employees
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -15,25 +15,25 @@ name: __Base template
 key: __base template
 content-length: 38
 
-{5C8862A6-7B47-4354-92F6-11EB080E6D0C}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
 key: __standard values
 content-length: 38
 
-{0472F570-FAE1-4C99-8CA9-75D58291F93F}
+{0E86CD1A-1DB7-4058-A6EA-6FC029BA3D21}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 38
+content-length: 23
 
-office/32x32/radio_button_selected.png
+Office/32x32/users3.png
 ----version----
 language: en
 version: 1
-revision: 737917d9-9e46-4382-a457-4fa065c8f12e
+revision: 2e393dc1-d16d-4e92-81b5-ae01d52fe672
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -41,28 +41,35 @@ name: __Owner
 key: __owner
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20170325T133048Z
+20200625T122451Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-737917d9-9e46-4382-a457-4fa065c8f12e
+2e393dc1-d16d-4e92-81b5-ae01d52fe672
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20190821T134851Z
+20200625T122603Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

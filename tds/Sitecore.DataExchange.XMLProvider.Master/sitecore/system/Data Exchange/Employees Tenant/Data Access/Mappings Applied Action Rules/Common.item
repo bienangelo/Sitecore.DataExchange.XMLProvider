@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {936897E2-CD38-436F-85E8-EC1C6B5531FF}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Data Access/Mappings Applied Action Rules/Common
+parent: {B03559DC-8DF1-4AC0-A617-8F8C3C5C0175}
+name: Common
+master: {0D21226F-7B04-4FF2-9230-B55245CF6FE7}
+template: {6C3114DA-A2AE-4560-A150-CD9694496D74}
+templatekey: Mappings Applied Action Rules Common Root
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{936897E2-CD38-436F-85E8-EC1C6B5531FF}
+----version----
+language: en
+version: 1
+revision: 83d0066d-f5b5-4f07-a3c1-e99ec4fd2e9b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T122936Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+83d0066d-f5b5-4f07-a3c1-e99ec4fd2e9b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T122936Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous

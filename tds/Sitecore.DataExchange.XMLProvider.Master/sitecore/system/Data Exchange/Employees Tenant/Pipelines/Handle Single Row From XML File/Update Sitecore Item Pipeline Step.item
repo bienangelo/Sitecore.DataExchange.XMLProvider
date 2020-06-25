@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {C6761293-9EB0-4A3D-A356-C286C7A07B11}
+database: master
+path: /sitecore/system/Data Exchange/Employees Tenant/Pipelines/Handle Single Row From XML File/Update Sitecore Item Pipeline Step
+parent: {15E8A335-77D5-42D8-950D-819644975517}
+name: Update Sitecore Item Pipeline Step
+master: {00000000-0000-0000-0000-000000000000}
+template: {B384FB2D-FBEF-4A8E-9572-FA5FB9F75A7D}
+templatekey: Update Sitecore Item Pipeline Step
+
+----field----
+field: {53CA50C3-F968-47D4-B19F-9EF305F99403}
+name: ItemLocation
+key: itemlocation
+content-length: 38
+
+{EC64487D-E7E6-40B0-A86C-40C74B95E04E}
+----field----
+field: {E8609AF1-3E0A-41AE-894D-03DCD99165A7}
+name: EndpointTo
+key: endpointto
+content-length: 38
+
+{2B5E20BB-8D81-400C-B67B-F480C7CEE69B}
+----version----
+language: en
+version: 1
+revision: 9699ef04-d2be-4dc8-8bf5-7e912eb229b9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200625T131709Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9699ef04-d2be-4dc8-8bf5-7e912eb229b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200625T131719Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
